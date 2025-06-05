@@ -19,7 +19,7 @@ class TransacaoController
         $this->db = $db;
     }
 
-    // Método para criar uma transação
+ 
     public function criar(Request $request, Response $response): Response
     {
         try {
@@ -52,7 +52,7 @@ class TransacaoController
         }
     }
 
-    // Método para apagar todas as transações
+
     public function apagarTudo(Request $request, Response $response): Response
     {
         try {
@@ -81,7 +81,7 @@ class TransacaoController
         }
     }
 
-    // Método para obter as estatísticas das transações
+
     public function estatisticas(Request $request, Response $response): Response
     {
         try {
